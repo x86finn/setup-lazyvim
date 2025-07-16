@@ -40,7 +40,7 @@ now let's edit some file on here by using `nano` or `vim` or `nvim` and then the
 ```
 vim solarized.lua 
 ```
-after that put this <a href="https://github.com/maxmx03/solarized.nvim">lua</a> into the file
+after that put this <a href="https://github.com/maxmx03/solarized.nvim">solarized.lua</a> into the file
 ```
 return {
   { "maxmx03/solarized.nvim},
