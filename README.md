@@ -9,8 +9,8 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak} 
 ```
 ╰┈➤ this gonna make a backup for your current neovim file
+- then write this command
 
-then write this command
 ```
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
