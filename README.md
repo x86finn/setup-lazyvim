@@ -1,4 +1,4 @@
-<h1 align="center">💤 Setup Lazyvim</h1>
+<h1 align="center">💤 Setup Lazyvim | Nerd Font 🤓 | 🪟 Window 11</h1>
 this is gonna be simple guide to setup your lazyvim . this is the beginner guide that you can't find anywhere else "maybe" let get into it
 
 first of all run this commands into your linux terminal
@@ -14,3 +14,9 @@ then write this command
 ```
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
+╰┈➤ to clone it
+```
+rm -rf ~/.config/nvim/.git
+```
+╰┈➤ to delete the .git
+
