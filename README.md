@@ -24,3 +24,31 @@ rm -rf ~/.config/nvim/.git
 ```
 ╰┈➤ to delete the .git
 
+- then start the nvim
+
+now you've got the new default lazyvim 
+<br/>
+Now let's install theme into it for me i like solarized theme 
+```
+cd ~/.config/nvim/lua/plugins/
+```
+then type
+```
+touch solarized.lua
+```
+now let's edit some file on here by using `nano` or `vim` or `nvim` and then the `<filename>`
+```
+vim solarized.lua 
+```
+after that put this <a href="https://github.com/maxmx03/solarized.nvim">lua</a> into the file
+```
+return {
+  { "maxmx03/solarized.nvim},
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "solarized",
+    },
+  },
+}
+```
