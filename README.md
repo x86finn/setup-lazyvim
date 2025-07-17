@@ -52,3 +52,5 @@ return {
   },
 }
 ```
+then save it using ```:wq```
+open the nvim again and the lazyvim gonna automatically install the theme and run it .
